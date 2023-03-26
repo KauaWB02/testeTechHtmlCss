@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d0246;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+}
+
+header .link{
+  margin-top: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+header .link a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.link:hover{
+  background-color: black;
+}
+

@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 3%;
+}
+
+.box .descricao-produto {
+  display: flex;
+  flex-direction: column;
+}
+
+.box .descricao-produto .title {
+  display: flex;
+  flex-direction: row;
+}
+
+.box .descricao-produto .title p {
+  margin-left: 10px;
+}
+
+.box .descricao-produto .produtos {
+  display: flex;
+  flex-direction: row;
+}
+
+.box .descricao-produto .produtos p {
+  margin-left: 10px;
+}

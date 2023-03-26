@@ -1,0 +1,58 @@
+section.login {
+  border-radius: 3%;
+  width: 50vw;
+  background-color: #4a0a7e;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+section.login .box-form {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin: auto;
+}
+
+section.login .box-form input {
+  height: 30px;
+  margin-top: 15px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+section.login .box-form button {
+  height: 30px;
+  margin-top: 15px;
+  padding-left: 5px;
+  cursor: pointer;
+  width: 25%;
+}
+
+section.login .box-form button:hover {
+  background-color: green;
+  border: none;
+  color: wheat;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+h1 > span{
+  color: rgb(237, 245, 11);
+  text-decoration: underline;
+  font-size: 25px;
+}
+.aviso{
+  background: orange;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 15px;
+  display: none;
+}
